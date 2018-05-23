@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      button {
+        height: 30px;
+        width: 30px;
+        outline: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Currency Sentry (USD/TRY)</h3>
+    <label>Polling interval:</label><input id="poll-interval" type="number" min="0" />(Set 0 to deactivate)
+    <br><br>
+    <label>Notification value:</label><input id="change" type="number" min="0" step="0.01"/>
+    <script src="popup.js"></script>
+  </body>
+</html>
